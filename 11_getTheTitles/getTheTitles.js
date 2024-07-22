@@ -1,4 +1,6 @@
-const getTheTitles = function() {
+const getTheTitles = function(array) {
+    let titles = array.map(book => book.title);
+    return titles;
 
 };
 
